@@ -117,6 +117,17 @@ forge script script/DeployReputation.s.sol:DeployReputation \
 | Base (8453)          | 1   | `0x1Fd0e803880C9A952d3751Eadfc7653927EcaE8F`   | [`manifests/369-agent-v1.json`](https://raw.githubusercontent.com/369wallet/369-agnet-8004/main/manifests/369-agent-v1.json) |
 | Arc Testnet (5042002)| 1   | `0x1Fd0e803880C9A952d3751Eadfc7653927EcaE8F`   | [`manifests/369-agent-v1.json`](https://raw.githubusercontent.com/369wallet/369-agnet-8004/main/manifests/369-agent-v1.json) |
 
+#### Agent Store seed agents (Arc Testnet)
+
+Registered via [`script/SeedAgents.s.sol`](script/SeedAgents.s.sol) in fixed slug order.
+
+| Id  | Agent         | Category | Manifest                                          |
+| --- | ------------- | -------- | ------------------------------------------------- |
+| 2   | Sentinel      | security | [`manifests/store/sentinel-security.json`](manifests/store/sentinel-security.json) |
+| 3   | Yield Scout   | research | [`manifests/store/yield-scout-research.json`](manifests/store/yield-scout-research.json) |
+| 4   | Dust Sweeper  | defi     | [`manifests/store/dust-sweeper-defi.json`](manifests/store/dust-sweeper-defi.json) |
+| 5   | Tax Ledger    | tax      | [`manifests/store/tax-ledger.json`](manifests/store/tax-ledger.json) |
+
 ---
 
 ## Canonical recommendation hash (EIP-712)
