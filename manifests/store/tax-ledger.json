@@ -1,0 +1,30 @@
+{
+    "name": "Tax Ledger",
+    "version": "1.0.0",
+    "agentId": 5,
+    "slug": "tax-ledger",
+    "operator": "0x1Fd0e803880C9A952d3751Eadfc7653927EcaE8F",
+    "description": "Tax & accounting agent for 369 Wallet. Reads on-chain history and agent activity to help organise transactions for record-keeping. Read-only: zero write permissions, never touches funds.",
+    "homepage": "https://369wallet.xyz",
+    "repository": "https://github.com/369wallet/369-agnet-8004",
+    "license": "Apache-2.0",
+    "storeProfile": {
+        "category": "tax",
+        "developer": "Ledgerline",
+        "tagline": "Your on-chain activity, organised — read-only",
+        "icon": "receipt",
+        "accent": "#06B6D4",
+        "chains": [5042002, 1, 56, 8453],
+        "permissions": []
+    },
+    "capabilities": [
+        "getArcHistory",
+        "getOnChainHistory",
+        "listAgentActivity",
+        "getPortfolio"
+    ],
+    "networks": [
+        { "name": "Arc Testnet", "chainId": 5042002, "identityRegistry": "0xAceB520444ddeDec663277FC866ab77E8085918e", "validationRegistry": "0x148336926e6F21A2EC63B47BA31dD0B08E538b91", "reputationRegistry": "0x6f4065ca2c34a7201aa02d3b0c8b37be77d607b5" }
+    ],
+    "signingKey": "0x1Fd0e803880C9A952d3751Eadfc7653927EcaE8F"
+}
