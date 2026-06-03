@@ -44,6 +44,21 @@
         }
     ],
     "signingKey": "0x1Fd0e803880C9A952d3751Eadfc7653927EcaE8F",
+    "storeProfile": {
+        "category": "general",
+        "developer": "369 Wallet",
+        "tagline": "The core 369 agent — reads balances & history, then composes sends, bridges, swaps, and approval revokes. You always sign; it only proposes.",
+        "icon": "rocket",
+        "accent": "#06B6D4",
+        "chains": [8453, 5042002],
+        "permissions": [
+            { "key": "read", "scope": "read", "tools": ["getArcBalance", "getArcHistory", "getPortfolio", "getPrice", "listApprovals", "listContacts"] },
+            { "key": "send", "scope": "write", "tools": ["sendArc"] },
+            { "key": "bridge", "scope": "write", "tools": ["bridgeQuote", "bridgeExecute", "resumeBridge"] },
+            { "key": "swap", "scope": "write", "tools": ["arcSwapQuote", "arcSwapExecute", "sweepDustQuote", "sweepDustPlan"] },
+            { "key": "revoke", "scope": "write", "tools": ["revokeApproval"] }
+        ]
+    },
     "recommendationSchema": {
         "type": "eip712",
         "name": "369AgentRecommendation",
