@@ -49,8 +49,8 @@ curl -L https://foundry.paradigm.xyz | bash
 foundryup
 
 # Clone + bootstrap deps.
-git clone https://github.com/369wallet/369-agnet-8004.git
-cd 369-agnet-8004
+git clone https://github.com/369wallet/369-agent-8004.git
+cd 369-agent-8004
 forge install foundry-rs/forge-std --no-commit
 
 # Compile + test.
@@ -114,8 +114,8 @@ forge script script/DeployReputation.s.sol:DeployReputation \
 
 | Network              | Id  | Operator                                       | Manifest                                                                                                            |
 | -------------------- | --- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| Base (8453)          | 1   | `0x1Fd0e803880C9A952d3751Eadfc7653927EcaE8F`   | [`manifests/369-agent-v1.json`](https://raw.githubusercontent.com/369wallet/369-agnet-8004/main/manifests/369-agent-v1.json) |
-| Arc Testnet (5042002)| 1   | `0x1Fd0e803880C9A952d3751Eadfc7653927EcaE8F`   | [`manifests/369-agent-v1.json`](https://raw.githubusercontent.com/369wallet/369-agnet-8004/main/manifests/369-agent-v1.json) |
+| Base (8453)          | 1   | `0x1Fd0e803880C9A952d3751Eadfc7653927EcaE8F`   | [`manifests/369-agent-v1.json`](https://raw.githubusercontent.com/369wallet/369-agent-8004/main/manifests/369-agent-v1.json) |
+| Arc Testnet (5042002)| 1   | `0x1Fd0e803880C9A952d3751Eadfc7653927EcaE8F`   | [`manifests/369-agent-v1.json`](https://raw.githubusercontent.com/369wallet/369-agent-8004/main/manifests/369-agent-v1.json) |
 
 #### Agent Store seed agents (Arc Testnet)
 

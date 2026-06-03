@@ -4,7 +4,7 @@
     "operator": "0x1Fd0e803880C9A952d3751Eadfc7653927EcaE8F",
     "description": "Autonomous agent for the 369 Wallet. Reads balances and history; composes and broadcasts sends, CCTP V2 bridges, Arc App Kit swaps, ERC-20 approval revokes, and CCTP receive-message mints. Every signature originates on the user's device — the agent only proposes; the wallet executes.",
     "homepage": "https://369wallet.xyz",
-    "repository": "https://github.com/369wallet/369-agnet-8004",
+    "repository": "https://github.com/369wallet/369-agent-8004",
     "license": "Apache-2.0",
     "capabilities": [
         "getArcBalance",
